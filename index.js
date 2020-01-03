@@ -7,3 +7,13 @@
 // Find out the total of the albums selected
 
 // Save button is clicked then when its clicked show notification with saved items total
+
+
+
+
+
+let notify = document.querySelector(".notify");
+let albums = document.querySelectorAll(".album");
+let itemsTotal = document.querySelector(".items-total");
+let savedBtn = document.querySelector(".button");
+
