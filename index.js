@@ -38,3 +38,12 @@ while (i < albums.length) {
     });
     i++;
 }
+
+
+savedBtn.addEventListener("click", function() {
+    notify.classList.add("active");
+    itemsTotal.textContent = `${albumSelected.length} items saved`
+    setTimeout(() => {
+       notify.classList.remove("active") 
+    }, 2000);
+})
